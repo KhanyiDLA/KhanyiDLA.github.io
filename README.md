@@ -1,1 +1,2 @@
-# KhanyiDLA.github.io
+# Khanyisile Dlamini
+KhanyiDLA.github.io
