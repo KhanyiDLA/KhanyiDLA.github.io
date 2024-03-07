@@ -60,11 +60,52 @@
     body {
       background-color: rgb(199, 123, 147);
     }
-  </style>
 
-  <body>
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: rgb(40, 147, 159);
+      color: black;
+    }
+
+    .navbar a.active {
+      background-color: rgb(40, 147, 159);
+      color: white;
+    }
+
+    .navbar-container {
+      overflow-x: auto;
+      background-color: #333;
+    }
+  </style>
+  <div class="navbar-container">
+    <div class="navbar">
+      <a href="#Khanyisile Dlamini">Home</a>
+      <a href="#About Me">About Me</a>
+      <a href="#Work Experience">Work Experience</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Contact Me">Contact Me</a>
+    </div>
+  </div>
+
+  <body style="margin-top: 50px;">
     <div>
-      <h1 class="adjusted-text">
+      <h1 class="adjusted-text" id="Khanyisile Dlamini">
         Khanyisile Dlamini
       </h1>
     </div>
@@ -73,7 +114,7 @@
         src="https://media.licdn.com/dms/image/D4D03AQHFyF3Q0TU85A/profile-displayphoto-shrink_800_800/0/1704794883557?e=1715212800&v=beta&t=dktsOw9QXHmuC7L1TRD9J5OUz7AWXqyYdxDwNru7TeQ">
     </div>
     <div>
-      <h2 class="thin-blue-border adjusted-text ">
+      <h2 class="thin-blue-border adjusted-text " id="About Me">
         About Me
       </h2>
       <p class="adjusted-text">
@@ -98,7 +139,7 @@
       </p>
     </div>
     <div>
-      <h2 class="thin-blue-border adjusted-text ">
+      <h2 class="thin-blue-border adjusted-text " id="Work Experience">
         Work Experience
       </h2>
       <div>
@@ -124,7 +165,7 @@
           analyse data.
         </p>
         <div>
-          <h2 class="thin-blue-border adjusted-text">
+          <h2 class="thin-blue-border adjusted-text" id="Skills">
             Skills
           </h2>
           <a>
@@ -167,7 +208,7 @@
           </a>
         </div>
         <div>
-          <h2 class="thin-blue-border adjusted-text">
+          <h2 class="thin-blue-border adjusted-text" id="Contact Me">
             Contact Me
           </h2>
           <a href="https://www.linkedin.com/in/khanyisile-dlamini-2a0377183/" target="_blank"><img
